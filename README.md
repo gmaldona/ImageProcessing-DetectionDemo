@@ -29,6 +29,6 @@ def most_likely_translation(current_object: ((float, float), float), previous_ob
 
 ![Distance](https://github.com/gmaldona/ImageProcessing-DetectionDemo/blob/main/Demo%20Images/distance%20Between%20Centroids.png)
 
-The method takes in two parameters: one centroid from frame 2 and all of the centroids in frame 1. The method returns a single centroid that is in frame 1 that the parameter centroid in frame 2 most like translated from: 
+The method takes in two parameters: one centroid from frame 2 and all of the centroids in frame 1. The method returns a single centroid that is in frame 1 that the parameter centroid in frame 2 most likely translated from: 
 
 ![Translation](https://github.com/gmaldona/ImageProcessing-DetectionDemo/blob/main/Demo%20Images/points%20Translated.png)
